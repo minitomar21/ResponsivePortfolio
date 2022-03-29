@@ -733,13 +733,40 @@ header .circle {
   border-radius: 4px;
   background-color: #ece6fa;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-.skill-progress {
+.skill-progress1 {
   position: absolute;
   height: 100%;
-  width: 0%;
+  width: 90%;
+  top: 0;
+  left: 0;
+  background-color: var(--main-color);
+  transition: 1s;
+}
+.skill-progress2 {
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  top: 0;
+  left: 0;
+  background-color: var(--main-color);
+  transition: 1s;
+}
+.skill-progress3 {
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  top: 0;
+  left: 0;
+  background-color: var(--main-color);
+  transition: 1s;
+}
+.skill-progress4 {
+  position: absolute;
+  height: 100%;
+  width: 65%;
   top: 0;
   left: 0;
   background-color: var(--main-color);
@@ -1477,6 +1504,7 @@ header .circle {
     bottom: -50px;
     left: -75px;
   }
+  
 
   header .points2 {
     width: 340px;
